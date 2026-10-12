@@ -1,0 +1,9 @@
+# Never upload raw downloads, local builds or test output with `vercel deploy`
+assets-src
+.next
+.next-*
+node_modules
+test-results
+playwright-report
+tests/screenshots
+.env*.local
