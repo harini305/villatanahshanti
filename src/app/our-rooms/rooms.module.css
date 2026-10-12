@@ -1,0 +1,188 @@
+.shared {
+  border-bottom: var(--hair);
+  background: var(--c-white);
+}
+.sharedInner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 10px 32px;
+  padding-block: 22px;
+}
+.sharedLabel {
+  font-family: var(--font-body);
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: var(--c-gold-text);
+}
+.sharedList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 6px 0;
+}
+.sharedList li {
+  display: inline-flex;
+  align-items: center;
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  font-style: italic;
+  color: var(--c-ink-soft);
+}
+.sharedList li + li::before {
+  content: '';
+  width: 4px;
+  height: 4px;
+  margin-inline: 14px;
+  border-radius: 50%;
+  background: var(--c-gold);
+}
+
+/* ---------- room ---------- */
+.room {
+  padding-block: clamp(52px, 6vw, 100px);
+  border-bottom: var(--hair);
+}
+.room:nth-of-type(even) {
+  background: var(--c-white);
+}
+.roomHead {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: end;
+  gap: 16px clamp(20px, 3vw, 48px);
+  margin-bottom: clamp(24px, 3vw, 40px);
+}
+.index {
+  font-family: var(--font-display);
+  font-size: clamp(4.5rem, 3rem + 6vw, 10rem);
+  font-weight: 300;
+  line-height: 0.75;
+  color: var(--c-taupe);
+}
+.titleBlock {
+  display: grid;
+  gap: 12px;
+}
+.name {
+  font-size: clamp(3rem, 2rem + 4vw, 6rem);
+  font-weight: 300;
+  line-height: 0.9;
+}
+.facts {
+  grid-column: 1 / -1;
+  display: grid;
+  gap: 10px;
+  padding-top: 18px;
+  border-top: var(--hair);
+}
+.facts div {
+  display: grid;
+  grid-template-columns: 6rem 1fr;
+  gap: 12px;
+}
+.facts dt {
+  padding-top: 4px;
+  font-size: 0.66rem;
+  font-weight: 600;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--c-gold-text);
+}
+.facts dd {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  line-height: 1.35;
+}
+@media (min-width: 1024px) {
+  .roomHead {
+    grid-template-columns: auto 1fr minmax(0, 26rem);
+  }
+  .facts {
+    grid-column: auto;
+    padding: 0 0 0 28px;
+    border-top: 0;
+    border-left: var(--hair);
+  }
+}
+
+.body {
+  display: grid;
+  gap: 32px;
+  margin-top: clamp(28px, 3.5vw, 48px);
+}
+.copy :global(.prose) {
+  display: grid;
+  gap: 1.2em;
+}
+.copy :global(.prose) > * + * {
+  margin-top: 0;
+}
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+@media (min-width: 1024px) {
+  .body {
+    grid-template-columns: minmax(0, 1fr) auto;
+    align-items: start;
+    gap: 64px;
+  }
+  .copy :global(.prose) {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: 48px;
+  }
+  .actions {
+    flex-direction: column;
+    align-items: stretch;
+    min-width: 230px;
+  }
+}
+
+/* ---------- kitchen & dining ---------- */
+.living {
+  padding-bottom: clamp(52px, 6vw, 100px);
+  background: var(--c-cream);
+}
+.livingBanner {
+  position: relative;
+  height: clamp(320px, 56vw, 760px);
+  overflow: hidden;
+  background: var(--c-sand);
+}
+.livingGrid {
+  display: grid;
+  gap: 32px;
+  padding-top: clamp(40px, 5vw, 72px);
+}
+.livingHead {
+  display: grid;
+  align-content: start;
+  justify-items: start;
+  gap: 18px;
+}
+.livingHead h2 em {
+  color: var(--c-forest);
+}
+@media (min-width: 1024px) {
+  .livingGrid {
+    grid-template-columns: minmax(0, 4fr) minmax(0, 8fr);
+    gap: clamp(40px, 6vw, 96px);
+  }
+  .livingCols :global(.prose) {
+    columns: 2;
+    column-gap: 48px;
+  }
+  .livingCols :global(.prose) p {
+    break-inside: avoid;
+  }
+}
+.livingPhotos {
+  max-width: 920px;
+  margin-top: clamp(36px, 4.5vw, 64px);
+}

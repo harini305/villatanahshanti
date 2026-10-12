@@ -1,0 +1,63 @@
+.wrap {
+  display: grid;
+  place-items: center;
+  min-height: calc(100svh - var(--header-h));
+  padding: clamp(72px, 9vw, 140px) var(--gutter);
+  background: var(--c-ivory);
+  text-align: center;
+}
+.inner {
+  display: grid;
+  justify-items: center;
+  gap: 24px;
+  max-width: 44rem;
+}
+.mark {
+  margin-bottom: 8px;
+}
+.code {
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.4em;
+  text-transform: uppercase;
+  color: var(--c-gold-text);
+}
+.title {
+  font-size: clamp(2.6rem, 1.8rem + 3vw, 4.6rem);
+  font-weight: 300;
+  line-height: 1.05;
+}
+.title em {
+  color: var(--c-forest);
+}
+.text {
+  max-width: 38ch;
+  color: var(--c-ink-soft);
+}
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 8px;
+}
+.btn {
+  display: inline-flex;
+  align-items: center;
+  min-height: 52px;
+  padding: 0 2em;
+  border: 1px solid var(--c-forest);
+  border-radius: var(--radius);
+  background: var(--c-forest);
+  color: var(--c-white);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.ghost {
+  background: transparent;
+  border-color: var(--c-ink);
+  color: var(--c-ink);
+}

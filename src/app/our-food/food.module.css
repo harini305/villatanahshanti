@@ -1,0 +1,150 @@
+/* collage: three dishes, equal frames, captions on one line */
+.collage {
+  display: grid;
+  gap: clamp(20px, 2.4vw, 36px);
+}
+.dish {
+  display: grid;
+  align-content: start;
+  gap: 14px;
+  margin: 0;
+}
+.dishImg {
+  position: relative;
+  aspect-ratio: 5 / 3;
+  overflow: hidden;
+  background: var(--c-sand);
+}
+.dishLead .dishImg {
+  background: transparent;
+}
+.dish figcaption {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: 1.2rem;
+  color: var(--c-ink-muted);
+}
+@media (min-width: 640px) {
+  .collage {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .dishLead {
+    grid-column: 1 / -1;
+  }
+}
+@media (min-width: 1024px) {
+  .collage {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .dishLead {
+    grid-column: auto;
+  }
+}
+
+/* kitchen */
+.kitchen {
+  display: grid;
+  gap: clamp(40px, 6vw, 96px);
+}
+.kitchenText {
+  display: grid;
+  justify-items: start;
+  align-content: start;
+  gap: 24px;
+}
+.kitchenText h2 em,
+.coconutText h2 em {
+  color: var(--c-forest);
+}
+.highlights {
+  display: grid;
+  align-content: start;
+  border-top: var(--hair);
+}
+.highlights li {
+  display: flex;
+  align-items: baseline;
+  gap: 20px;
+  padding-block: 20px;
+  border-bottom: var(--hair);
+  font-family: var(--font-display);
+  font-size: clamp(1.35rem, 1.15rem + 0.6vw, 1.7rem);
+}
+.highlights li {
+  transition: padding-left 0.4s var(--ease-out), color 0.3s;
+}
+.highlights li:hover {
+  padding-left: 10px;
+  color: var(--c-forest);
+}
+.hNum {
+  font-family: var(--font-body);
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  color: var(--c-gold-text);
+}
+@media (min-width: 1024px) {
+  .kitchen {
+    grid-template-columns: minmax(0, 6fr) minmax(0, 5fr);
+  }
+}
+
+/* twist */
+.twist {
+  text-align: center;
+}
+.twistEyebrow {
+  margin-bottom: 28px;
+}
+.twistText {
+  font-family: var(--font-display);
+  font-size: clamp(1.6rem, 1.2rem + 1.6vw, 2.6rem);
+  font-weight: 300;
+  line-height: 1.35;
+}
+
+/* coconut */
+.coconut {
+  display: grid;
+  gap: clamp(40px, 6vw, 96px);
+  align-items: center;
+}
+.coconutImg {
+  position: relative;
+  aspect-ratio: 4 / 5;
+  overflow: hidden;
+  background: var(--c-sand);
+}
+.coconutText {
+  display: grid;
+  justify-items: start;
+  gap: 24px;
+}
+@media (min-width: 1024px) {
+  .coconut {
+    grid-template-columns: minmax(0, 5fr) minmax(0, 6fr);
+  }
+}
+.quoteWrap {
+  display: flex;
+  justify-content: center;
+  margin-top: clamp(44px, 5.5vw, 88px);
+}
+.quote {
+  max-width: 22ch;
+  font-family: var(--font-display);
+  font-style: italic;
+  font-weight: 300;
+  font-size: clamp(2rem, 1.4rem + 2.6vw, 3.8rem);
+  line-height: 1.15;
+  text-align: center;
+}
+.quote::before {
+  content: '';
+  display: block;
+  width: 56px;
+  height: 1px;
+  margin: 0 auto 32px;
+  background: var(--c-gold);
+}

@@ -1,0 +1,32 @@
+{
+  "name": "villa-tanah-shanti",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Villa Tanah Shanti, Ubud Bali: modernised, brand-faithful rebuild (Next.js App Router + GSAP)",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "assets:fetch": "node scripts/fetch-assets.mjs",
+    "assets:optimize": "node scripts/optimize-images.mjs",
+    "test": "playwright test",
+    "test:install": "playwright install chromium"
+  },
+  "engines": {
+    "node": ">=20.9.0"
+  },
+  "dependencies": {
+    "@gsap/react": "^2.1.2",
+    "gsap": "^3.15.0",
+    "next": "^16.4.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.13.0",
+    "@playwright/test": "^1.64.0",
+    "eslint": "^9.39.5",
+    "eslint-config-next": "^16.4.0"
+  }
+}

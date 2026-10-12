@@ -1,0 +1,26 @@
+# dependencies
+/node_modules
+
+# next.js
+/.next/
+/.next-*/
+/out/
+next-env.d.ts
+
+# raw Wix downloads (≈330 MB) — regenerate with `npm run assets:fetch`
+/assets-src/
+
+# testing
+/test-results/
+/playwright-report/
+/tests/screenshots/
+
+# env (only .env.example is committed)
+.env*
+!.env.example
+
+# misc
+.DS_Store
+*.pem
+npm-debug.log*
+.vercel

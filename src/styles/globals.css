@@ -1,0 +1,302 @@
+@import './tokens.css';
+
+/* ---------- reset ---------- */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  scroll-padding-top: calc(var(--header-h) + 72px);
+}
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+body {
+  min-height: 100vh;
+  background: var(--c-ivory);
+  color: var(--c-ink);
+  font-family: var(--font-body);
+  font-size: var(--fs-body);
+  font-weight: 400;
+  line-height: var(--lh-body);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-variant-numeric: lining-nums;
+  overflow-x: clip;
+}
+img,
+picture,
+video,
+svg,
+iframe {
+  display: block;
+  max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  color: inherit;
+}
+button {
+  cursor: pointer;
+}
+p,
+h1,
+h2,
+h3,
+h4 {
+  overflow-wrap: break-word;
+}
+ul[role='list'],
+ol[role='list'] {
+  list-style: none;
+  padding: 0;
+}
+a {
+  color: inherit;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.22em;
+}
+
+/* ---------- typography ---------- */
+h1,
+h2,
+h3 {
+  font-family: var(--font-display);
+  font-weight: 400;
+  line-height: var(--lh-heading);
+  letter-spacing: -0.01em;
+  text-wrap: balance;
+}
+h1 {
+  font-size: var(--fs-h1);
+  font-weight: 300;
+  line-height: var(--lh-tight);
+}
+h2 {
+  font-size: var(--fs-h2);
+  font-weight: 300;
+}
+h3 {
+  font-size: var(--fs-h3);
+}
+h1 em,
+h2 em,
+h3 em {
+  font-style: italic;
+  font-weight: 400;
+}
+p {
+  text-wrap: pretty;
+}
+strong {
+  font-weight: 600;
+}
+.prose {
+  color: var(--c-ink-soft);
+}
+.prose > * + * {
+  margin-top: 1.15em;
+}
+.prose p {
+  max-width: var(--measure);
+}
+.prose a {
+  color: var(--c-forest);
+  font-weight: 600;
+  text-decoration-color: var(--c-gold);
+}
+.prose a:hover {
+  color: var(--c-ink);
+}
+.lead {
+  font-family: var(--font-display);
+  font-size: var(--fs-lead);
+  font-weight: 400;
+  line-height: 1.45;
+  color: var(--c-ink);
+}
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 14px;
+  font-family: var(--font-body);
+  font-size: var(--fs-eyebrow);
+  font-weight: 600;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: var(--c-gold-text);
+}
+.eyebrow::before {
+  content: '';
+  width: 32px;
+  height: 1px;
+  background: currentColor;
+  opacity: 0.7;
+}
+.eyebrow--center::after {
+  content: '';
+  width: 32px;
+  height: 1px;
+  background: currentColor;
+  opacity: 0.7;
+}
+.rule {
+  display: block;
+  width: 56px;
+  height: 1px;
+  background: var(--c-gold);
+}
+
+/* ---------- layout utilities ---------- */
+.container {
+  width: var(--container);
+  margin-inline: auto;
+}
+.container-wide {
+  width: var(--container-wide);
+  margin-inline: auto;
+}
+.container-text {
+  width: var(--container-text);
+  margin-inline: auto;
+}
+.section {
+  padding-block: var(--section-y);
+}
+.section--cream {
+  background: var(--c-cream);
+}
+.section--white {
+  background: var(--c-white);
+}
+.visually-hidden {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
+}
+
+/* ---------- focus ---------- */
+:focus-visible {
+  outline: 2px solid var(--c-focus);
+  outline-offset: 3px;
+  box-shadow: 0 0 0 5px var(--c-ivory);
+}
+.on-dark :focus-visible,
+:focus-visible.on-dark {
+  outline-color: var(--c-white);
+  box-shadow: 0 0 0 5px var(--c-ink);
+}
+
+.skip-link {
+  position: fixed;
+  top: 12px;
+  left: 12px;
+  z-index: calc(var(--z-lightbox) + 1);
+  padding: 12px 20px;
+  background: var(--c-ink);
+  color: var(--c-white);
+  font-size: var(--fs-small);
+  font-weight: 600;
+  text-decoration: none;
+  transform: translateY(-160%);
+  transition: transform var(--dur-fast) var(--ease-out);
+}
+.skip-link:focus-visible {
+  transform: none;
+  outline-color: var(--c-white);
+  box-shadow: 0 0 0 5px var(--c-ink);
+}
+#main:focus,
+#top:focus {
+  outline: none;
+}
+html.scroll-locked {
+  overflow: hidden;
+}
+.ext-icon {
+  display: inline-block;
+  margin-left: 0.35em;
+  vertical-align: -0.1em;
+  opacity: 0.7;
+}
+
+::selection {
+  background: var(--c-sand);
+  color: var(--c-ink);
+}
+
+/* ---------- progressive-enhancement motion guards ----------
+   Content is always visible without JS. With JS, the hero intro hides only until GSAP takes over;
+   a CSS fallback reveals it after 2s in case scripts fail. */
+.js [data-hero-intro] {
+  visibility: hidden;
+  animation: vts-unhide 0s 2s forwards;
+}
+@keyframes vts-unhide {
+  to {
+    visibility: visible;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .js [data-hero-intro] {
+    visibility: visible;
+    animation: none;
+  }
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+  }
+}
+
+/* ---------- hover utilities ----------
+   hover-zoom: slow zoom on the photograph inside a frame. Uses the individual `scale`
+   property so it composes with GSAP's parallax transform instead of overriding it.
+   card-lift: a gentle rise and soft shadow for cards. */
+.hover-zoom {
+  overflow: hidden;
+}
+.hover-zoom img {
+  transition:
+    scale 1.4s var(--ease-out),
+    filter 0.8s ease;
+}
+@media (hover: hover) {
+  .hover-zoom:hover img,
+  a:hover .hover-zoom img,
+  button:hover .hover-zoom img,
+  .hover-zoom:focus-within img {
+    scale: 1.07;
+    filter: saturate(1.08) contrast(1.02);
+  }
+}
+.card-lift {
+  transition:
+    transform 0.6s var(--ease-out),
+    box-shadow 0.6s var(--ease-out);
+}
+@media (hover: hover) {
+  .card-lift:hover,
+  .card-lift:focus-within {
+    transform: translateY(-6px);
+    box-shadow: 0 34px 60px -38px rgba(42, 36, 33, 0.55);
+  }
+}

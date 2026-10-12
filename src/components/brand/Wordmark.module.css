@@ -1,0 +1,74 @@
+.wordmark {
+  display: inline-block;
+  --oval: clamp(84px, 25vw, 214px);
+  --wm-fs: clamp(1.55rem, 7.6vw, 5.4rem);
+}
+.page {
+  --oval: clamp(72px, 18vw, 150px);
+  --wm-fs: clamp(1.35rem, 5.6vw, 3.6rem);
+}
+
+.composition {
+  display: inline-flex;
+  align-items: flex-end;
+}
+
+.oval {
+  position: relative;
+  z-index: 0;
+  flex: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: var(--oval);
+  aspect-ratio: 196 / 220;
+  padding: calc(var(--oval) * 0.1) calc(var(--oval) * 0.12) calc(var(--oval) * 0.08);
+  border: calc(var(--oval) * 0.03) solid var(--c-white);
+  border-radius: 50%;
+  background: var(--c-white);
+  box-shadow:
+    7px 8px 22px rgba(42, 36, 33, 0.22),
+    inset 0 0 0 1px rgba(42, 36, 33, 0.04);
+}
+.oval img {
+  width: 100%;
+  height: auto;
+}
+
+.text {
+  position: relative;
+  z-index: 1;
+  margin-left: calc(var(--oval) * -0.35);
+  padding-bottom: calc(var(--oval) * 0.045);
+  color: var(--c-white);
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: var(--wm-fs);
+  line-height: 1;
+  letter-spacing: -0.005em;
+  white-space: nowrap;
+  /* the original's embossed white lettering, simplified */
+  text-shadow:
+    0 1px 0 rgba(200, 200, 200, 0.9),
+    0 2px 0 rgba(170, 170, 170, 0.7),
+    0 3px 1px rgba(120, 120, 120, 0.45),
+    0 6px 18px rgba(42, 36, 33, 0.55);
+}
+
+/* compact header mark */
+.mark {
+  flex: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: var(--mark);
+  height: calc(var(--mark) * 1.1);
+  padding: calc(var(--mark) * 0.1) calc(var(--mark) * 0.12) calc(var(--mark) * 0.08);
+  border-radius: 50%;
+  background: var(--c-white);
+  box-shadow: 0 3px 10px rgba(42, 36, 33, 0.18), 0 0 0 1px rgba(42, 36, 33, 0.06);
+}
+.mark img {
+  width: 100%;
+  height: auto;
+}

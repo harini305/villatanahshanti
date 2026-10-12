@@ -1,0 +1,53 @@
+.collection {
+  padding-block: clamp(44px, 5vw, 80px);
+}
+.collection:nth-of-type(odd) {
+  background: var(--c-white);
+}
+.head {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: baseline;
+  gap: 4px 24px;
+  margin-bottom: clamp(28px, 4vw, 48px);
+  padding-bottom: 18px;
+  border-bottom: var(--hair);
+}
+.num {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: 1.25rem;
+  color: var(--c-gold-text);
+}
+.title {
+  font-size: clamp(2.4rem, 1.8rem + 2.4vw, 4rem);
+  font-weight: 300;
+  line-height: 1;
+}
+.count {
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--c-ink-muted);
+}
+
+.end {
+  padding-block: clamp(56px, 6vw, 100px);
+  background: var(--c-cream);
+  border-top: var(--hair);
+  text-align: center;
+}
+.endTitle {
+  font-size: clamp(2.6rem, 1.8rem + 3vw, 4.6rem);
+}
+.endTitle em {
+  color: var(--c-forest);
+}
+.endActions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 36px;
+}

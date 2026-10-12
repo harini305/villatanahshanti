@@ -1,0 +1,94 @@
+/* Design tokens — light & airy luxury direction (Gate 3 redesign).
+   Warm ivory grounds, deep forest green, sand/gold hairlines. The original brand greens
+   (#68B04D leaf, #BADA55 lime) survive as small accents only. Every text pair meets WCAG AA. */
+:root {
+  /* grounds */
+  --c-ivory: #faf7f2; /* page */
+  --c-cream: #f3ede4; /* alternate sections */
+  --c-sand: #e6dccf; /* hairlines, borders */
+  --c-sand-strong: #cdbfae;
+  --c-white: #ffffff;
+
+  /* ink */
+  --c-ink: #2a2421; /* 14.6:1 on ivory */
+  --c-ink-soft: #4a403b; /* 9.6:1 */
+  --c-ink-muted: #645852; /* 6.6:1 */
+  --c-taupe: #7f6e64; /* 4.6:1, large/secondary only */
+
+  /* greens */
+  --c-forest: #2e4a2a; /* white text 10.1:1 */
+  --c-forest-soft: #3e5f37;
+  --c-leaf: #68b04d; /* decorative */
+  --c-lime: #bada55; /* decorative */
+
+  /* gold-sand accent */
+  --c-gold: #b0915f; /* decorative hairlines */
+  --c-gold-text: #83643a; /* 5.1:1 on ivory — eyebrows, small labels */
+
+  /* states */
+  --c-focus: #2a2421;
+  --c-error: #9e2a1f;
+  --c-error-bg: #fbeeec;
+  --c-success-bg: #edf2e8;
+
+  /* type */
+  --font-display: var(--font-cormorant), 'Cormorant', 'Garamond', 'Times New Roman', serif;
+  --font-body: var(--font-manrope), 'Segoe UI', system-ui, sans-serif;
+
+  --fs-display: clamp(3.1rem, 1.6rem + 6.6vw, 8rem);
+  --fs-h1: clamp(2.9rem, 2rem + 4vw, 5.6rem);
+  --fs-h2: clamp(2.3rem, 1.7rem + 2.6vw, 4rem);
+  --fs-h3: clamp(1.55rem, 1.3rem + 1vw, 2.15rem);
+  --fs-lead: clamp(1.35rem, 1.1rem + 1vw, 1.95rem);
+  --fs-body: 1.0625rem;
+  --fs-small: 0.9375rem;
+  --fs-xs: 0.8125rem;
+  --fs-eyebrow: 0.75rem;
+
+  --lh-tight: 1.02;
+  --lh-heading: 1.1;
+  --lh-body: 1.8;
+
+  /* layout */
+  --gutter: clamp(20px, 5vw, 64px);
+  --container: min(100% - 2 * var(--gutter), 1280px);
+  --container-wide: min(100% - 2 * var(--gutter), 1520px);
+  --container-text: min(100% - 2 * var(--gutter), 44rem);
+  --measure: 62ch;
+  --header-h: 76px;
+  --section-y: clamp(60px, 6.5vw, 112px);
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+  --space-8: 64px;
+
+  /* shape */
+  --radius: 2px;
+  --hair: 1px solid var(--c-sand);
+
+  /* shadow (used sparingly) */
+  --shadow-soft: 0 30px 60px -40px rgba(42, 36, 33, 0.45);
+  --shadow-header: 0 1px 0 rgba(42, 36, 33, 0.08);
+
+  /* z-index */
+  --z-back-to-top: 90;
+  --z-header: 100;
+  --z-menu: 200;
+  --z-lightbox: 300;
+
+  /* motion */
+  --dur-fast: 0.25s;
+  --dur-base: 0.5s;
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+@media (min-width: 1200px) {
+  :root {
+    --header-h: 96px;
+  }
+}

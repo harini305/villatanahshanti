@@ -1,0 +1,455 @@
+{
+  "logo-rice-plant": {
+    "src": "/images/brand/logo-rice-plant.png",
+    "width": 591,
+    "height": 664,
+    "blurDataURL": "data:image/webp;base64,UklGRnoBAABXRUJQVlA4WAoAAAAQAAAADQAADwAAQUxQSLwAAAABgGPb2rHnPj9j27Zt27Zt27ZtVOrSuUqX3k4G4MzgxxgiYgIAgAhEanoG4CUOEWzqe45jABC0ZGHUnJu1Nw4QwSZeLNbmIvzSHWAj9CS71gEhUydWgN/HW7jmggJ66gzFgcOTIwunDZfEbC0QVFfiRxfdVlbDFFx6VSET4KTVWjk/5xlT5GEDYhIUdu9e8kscIQoQ2Kj7u2qPB4sAgAHD/8duFhN8CZzrT10w+IFwMQAmhFg3BwkC0iTBF1ZQOCCYAAAAcAIAnQEqDgAQAAOAWiWwAnQwQzyVSZuLxMhnYAD+mndqELOlP8f9D2c2HU/1lz4IAE5VC+e8S1dkVI6NbwxrNBk+Ozy28YibIpizqBwnV1tqerlQdo1YAmLTbwx1oW22O5FaH9lqUf/s9eqMIsLB/EH8uTtxURPvo9vTr5f+P79nBWWMC2JPZVzPdVv62jN6budl2rdRgAA=",
+    "wixId": "1ae893_f9bc4b254ce14a5bbad5ab74bcc63e36~mv2.png"
+  },
+  "wheat-field": {
+    "src": "/images/brand/wheat-field.jpg",
+    "width": 1050,
+    "height": 700,
+    "blurDataURL": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAADwAQCdASoQAAsAA4BaJQBOgCHerT2u9TAA/up1NGBA0ccNKRS1cGPvPRdLvjsvQEWnTxb7KDLbYIAA",
+    "wixId": "1ae893_54b9bc8d25f940fa906220eb5512da47~mv2.jpg"
+  },
+  "palm-leaf-janur": {
+    "src": "/images/brand/palm-leaf-janur.jpg",
+    "width": 3200,
+    "height": 1798,
+    "blurDataURL": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAACwAQCdASoQAAkAA4BaJZAAAh/XeVPGAPkTNNz7ZmxjfcF8p+4i30QsyFgxzewsH1YccyAPVa0EJSe1mdG6Atg/9qP3N6UBAAA=",
+    "wixId": "1ae893_7f94b1fb02444a579a7ce5ddf4c27bd8~mv2_d_4912_2760_s_4_2.jpg"
+  },
+  "young-coconuts": {
+    "src": "/images/brand/young-coconuts.jpg",
+    "width": 3200,
+    "height": 2133,
+    "blurDataURL": "data:image/webp;base64,UklGRoYAAABXRUJQVlA4IHoAAAAwAgCdASoQAAsAA4BaJbACdAYuRFVPJwLQAAD+5pjEDN7PvzqKKBP3Tyy/k4xJaRJrC75EFkGioYkM2xslsK3JinBPjVQIBeTo/b+CtqTkj4/QtETRd1Ie36XKwj4m9VSyNz39bH5pNDXCp+oJd7jQ+97ptySqwnXQAA==",
+    "wixId": "1ae893_a1770ccd2c864b4db2f0c56c7777683c~mv2_d_5472_3648_s_4_2.jpg"
+  },
+  "team-on-stairs": {
+    "src": "/images/home/team-on-stairs.jpg",
+    "width": 954,
+    "height": 2016,
+    "blurDataURL": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAABQAgCdASoIABAAA4BaJZQCdAYtp2ZKDOhV+AAA/uiTf+g6E++AB3HQhodqJGlzBR03U/vZZm79jD9bB63v/z1neNHKXpmatu9ZqQAA",
+    "wixId": "1ae893_e63ec642e6744a2fa3ed745b0b7e1fda~mv2.jpg"
+  },
+  "team-in-doorway": {
+    "src": "/images/home/team-in-doorway.png",
+    "width": 1093,
+    "height": 1800,
+    "blurDataURL": "data:image/webp;base64,UklGRvwAAABXRUJQVlA4WAoAAAAQAAAACQAADwAAQUxQSHQAAAABuS5E9D8MrmrbVpWFuztN3jdJqEYC/SYCMbSBnXfwDPtETMAE1E/VlDX0tA3sbS0lsvICJmdnRpCcDEqQyoCUkYeKnCx8Nw6/Ut8c/r36w/xR8SMDJTnfpIIwGVAGHJwCnxlwWkgUVUSZiYuHuYqqkBAHAFZQOCBiAAAAsAEAnQEqCgAQAAOAWiUAToAbGCryAAD+a1hkzUw+q+LmY1iVH564PLtMOdpAQ1c3GnhUtAp7na+LyHAa6Ssv5aj7Vy7KO8dQgfWoP0t6gmALQQA8oxMoJu/xsnT+VVhAAAA=",
+    "wixId": "1ae893_91cd533102c1465ebb15ce23e040e321~mv2_d_1669_2749_s_2.png"
+  },
+  "video-poster": {
+    "src": "/images/home/video-poster.jpg",
+    "width": 1868,
+    "height": 1045,
+    "blurDataURL": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAABQAgCdASoQAAkAA4BaJZgCdH8AgpiBvJWDegAA/lsjc4H76gS/XvPXF9Rp2sp7UAiz+W8WVuPeMMTD3mdn9+cvDEai17kTcFF4lIIkoMyfjfRTEzpqqPjmovdOZigAAAA=",
+    "wixId": "1ae893_5b4378d4cf4841fbbd2019dfed802db0~mv2.jpg"
+  },
+  "batur-hero": {
+    "src": "/images/rooms/batur-hero.jpg",
+    "width": 3200,
+    "height": 2133,
+    "blurDataURL": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAABwAgCdASoQAAsAA4BaJbACdAEDsu5TTTn5xHAAAPaXCAV6w2Wrg1eDQ8ToNq3plHa0xDxcgzENnf3dkwaH5y+s5w/Q0onMz/o3+Xn//qzNQFM0vYHSwd6arxCG9wZ1LwBN+37QAAA=",
+    "wixId": "1ae893_e209957e9ccc4397ae9580f2c823e3d9~mv2_d_6240_4160_s_4_2.jpg"
+  },
+  "yoga-shala": {
+    "src": "/images/yoga/yoga-shala.jpg",
+    "width": 3200,
+    "height": 2133,
+    "blurDataURL": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAABQAgCdASoQAAsAA4BaJbACdAYwxbMQiv99jiAA99lg7RKe7FAE/1zcVLPrPXdfI4+71/68LGZseAC85SSgW0KMd0Y3I+WUucKtzmUaODIVivsiMPc4kvZFLrWi+AAA",
+    "wixId": "1ae893_0ef9903b39854848822a2d3c531cf171~mv2_d_6240_4160_s_4_2.jpg"
+  },
+  "yoga-shala-duplicate": {
+    "skipped": true,
+    "reason": "duplicate of 0ef9903b",
+    "wixId": "1ae893_90c98efd9b1b4ba9b23c9a0bc6c5a33b~mv2_d_6240_4160_s_4_2.jpg"
+  },
+  "yoga-room-entrance": {
+    "src": "/images/yoga/yoga-room-entrance.jpg",
+    "width": 3200,
+    "height": 1800,
+    "blurDataURL": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAADQAQCdASoQAAkAA4BaJaACdAEfWsMuIADOPJqHwJc6c4i68a6FZpuuL9Xmhb3mEWEIDTrW0QFU0IDq3rutDEh2ggbvUKLwldiZpyVrQK93ZLy3s+FPIAAA",
+    "wixId": "1ae893_178a47be12e347b78a9c4a7e93b5abe4~mv2_d_3408_1917_s_2.jpg"
+  },
+  "ganesha-statue": {
+    "src": "/images/yoga/ganesha-statue.jpg",
+    "width": 3200,
+    "height": 1839,
+    "blurDataURL": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADwAQCdASoQAAkAA4BaJaACdAEYE8K1KsAAzjLiNi2YtX0HAM1ZsT9N2G4HsD4/OIpPFuOcmB8cAotWijPURfIF2RbdCxxX5qp6lO2tu7SLfGcAAAA=",
+    "wixId": "1ae893_d5fb8eb6a409446e92fa3cc7233ca430~mv2_d_3467_1992_s_2.jpg"
+  },
+  "shala-set-up-with-mats": {
+    "src": "/images/yoga/shala-set-up-with-mats.jpg",
+    "width": 907,
+    "height": 540,
+    "blurDataURL": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAADwAQCdASoQAAkAA4BaJbAC7ADLvd4QX8AA+XBSs/wfto/P3v3R3SfxYe/W5UEiroA9NGzILALOes5LZ3gKHepZnOeqPjYb4FkcuhYJsF5x6edpZnaZdn71QEAAAA==",
+    "wixId": "1ae893_e1e48ad2dc134903bf8d0f8108cb85a5~mv2.jpg"
+  },
+  "exhale-spa": {
+    "src": "/images/spa/exhale-spa.jpg",
+    "width": 3200,
+    "height": 2133,
+    "blurDataURL": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAAAwAgCdASoQAAsAA4BaJbACdAD7AFI3YSj1AAD8Igo0YHP2HMIJtChUTb95qyOHsTXccNONf8tka+YxE2wfAenVPzDXs7kFSUs02e+TcFjjkpJeXGLDxCCNr/ojmA0AAAA=",
+    "wixId": "1ae893_c47c41cbfb0b4f38bdfeb15edff8fbc5~mv2_d_6240_4160_s_4_2.jpg"
+  },
+  "spa-treatment-room": {
+    "src": "/images/spa/spa-treatment-room.jpg",
+    "width": 3200,
+    "height": 2162,
+    "blurDataURL": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAAAwAgCdASoQAAsAA4BaJbACdAEe1HTf2gO4AADN8O75dgKzDErljpyZtECNgWWss1ungIMqXZx/GjUVe/0IgjkEPvbJph8UqfD5XorweUFqTP8thyzI02hylogAAA==",
+    "wixId": "1ae893_51f7f6ccd98c4a35ad7a8ee4e03724fc~mv2_d_6410_4330_s_4_2.jpg"
+  },
+  "tofu-cashew-curry": {
+    "src": "/images/food/tofu-cashew-curry.jpg",
+    "width": 3200,
+    "height": 1920,
+    "blurDataURL": "data:image/webp;base64,UklGRooAAABXRUJQVlA4IH4AAABwAgCdASoQAAoAA4BaJbACdAYtBqhsNNXUKv0AAP5obj7YVUgb2kthH5vvIvD+NnK6tXPhOYE4eF/oUkMMXxbkik5YI0V0De4laZidXGLBe4VgZwmgjo7L3ps7EnaZCu5ShPmjSX6ZMhQYDp60hjYc/t6Qks7tEaAuqjUwAAA=",
+    "wixId": "1ae893_280212a8df3a4953bd6b825ca02bbef8~mv2_d_3240_1944_s_2.jpg"
+  },
+  "mexican-bean-wraps": {
+    "src": "/images/food/mexican-bean-wraps.jpg",
+    "width": 2910,
+    "height": 1770,
+    "blurDataURL": "data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAADwAgCdASoQAAoAA4BaJbACdEf/i1r/9zZuj98+ROp2AAD9IfNI/GFjq1PyA2hvE9LnHMSr3xCuYmyF374dW25G79cpKt2bVgMMD+jNbw8r6SZL6l7b9gMVRDcrMR419DQ72+8Gr5S1B2PeAAA=",
+    "wixId": "1ae893_63902a3770d94ee3840e7afcf402d1c3~mv2_d_2910_1770_s_2.jpg"
+  },
+  "noodle-salad": {
+    "src": "/images/food/noodle-salad.jpg",
+    "width": 2963,
+    "height": 1913,
+    "blurDataURL": "data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAADQAQCdASoQAAoAA4BaJbACdAEV6WvgAAD45fLyJ/N+deb7SbWM+SfD4r1lXi3wVyO1KuSCJiAiyMG9upsOAhKBxp/YAIMohLlzjv4wU+cjCAjz+6IlYtDwb+/P2kzsUSjEZuBzLWLZrKpAAAA=",
+    "wixId": "1ae893_353e0d2d555847819668ae0059a8f72d~mv2_d_2963_1913_s_2.jpg"
+  },
+  "agung-canopy-bed": {
+    "src": "/images/gallery/agung-canopy-bed.jpg",
+    "width": 3200,
+    "height": 2133,
+    "blurDataURL": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAAAwAgCdASoQAAsAA4BaJaACdAYuv2+bpmUvAAD+1vgXA64QD9+IR9aHm0yPMLttDQ3IqvCeV7/bNXzGKxi9ce61FOQ4mcvmAD7OpWaq+nTof2pGbDCcjC9l6K80AAAA",
+    "wixId": "1ae893_8b10d97aeece4a60a956452011c7e36d~mv2_d_6240_4160_s_4_2.jpg"
+  },
+  "agung-ensuite-bath": {
+    "src": "/images/gallery/agung-ensuite-bath.jpg",
+    "width": 3200,
+    "height": 2369,
+    "blurDataURL": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAAAQAgCdASoQAAwAA4BaJbACdAEDYWKRITwAAP7oauwbJcwE8ePePEMalAS0xpbDCGknAAlOFOKtT4OixEe9u25lxFDpcUzBXVHOkVUQfXG5tweJq6KxhJkAAAA=",
+    "wixId": "1ae893_2516867c5da44cdfb2a3d4097215c1f3~mv2_d_5199_3849_s_4_2.jpg"
+  },
+  "agung-bedroom": {
+    "src": "/images/gallery/agung-bedroom.jpg",
+    "width": 3200,
+    "height": 2133,
+    "blurDataURL": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAAAwAgCdASoQAAsAA4BaJbACdAEPVdo0dsmCAAD+Cmt/SN90d8mtZwOi3bJetVLvNRd53oyXlZLVBmblvWIggOQPJi3rvUPXGQvAF3VpvlIKo1abWG2YAAAA",
+    "wixId": "1ae893_6fe930dfdaf44d27ac9fcab851f81307~mv2_d_6240_4160_s_4_2.jpg"
+  },
+  "agung-veranda": {
+    "src": "/images/gallery/agung-veranda.jpg",
+    "width": 3200,
+    "height": 2133,
+    "blurDataURL": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAAAQAgCdASoQAAsAA4BaJbACdAYwS7yyIUMAAPKJEHrvgmQdQzP7uydZ+atJolw/ggNIofuEs+echvGVuibI7+0TnBDwL+/bVGntZj3On1VT19NwdPDGgSleOpwsAA==",
+    "wixId": "1ae893_570f32819383460c9293d021caab5787~mv2_d_6240_4160_s_4_2.jpg"
+  },
+  "agung-timber-ceiling": {
+    "src": "/images/gallery/agung-timber-ceiling.jpg",
+    "width": 3200,
+    "height": 2133,
+    "blurDataURL": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAAAQAgCdASoQAAsAA4BaJbACdAEDWltws3AAAPqJ5SVh3MBaoTi1QMv2Pg/8C2QU/1aNPLYFuAQ8/ED44Npkv7s5+7FgwNPLWCB4yPn21P9gsDg9VU9f4QvRMNcvm+DtEAAAAA==",
+    "wixId": "1ae893_e0feeb0e47d049dd962e0e62c706b7af~mv2_d_6240_4160_s_4_2.jpg"
+  },
+  "batukaru-bedroom-wide": {
+    "src": "/images/gallery/batukaru-bedroom-wide.jpg",
+    "width": 3200,
+    "height": 2133,
+    "blurDataURL": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAADwAQCdASoQAAsAA4BaJbACdADJUwYjl4AA/BjN8bd4heQdgiHyKZ9J47qk3rJQ+6T6ABfodYwD1MunODOwFkodVWBk+0bw2oS1DVhhUx6s5mbzzOBk/bbwaBcn6yZRVk588E4AAAA=",
+    "wixId": "1ae893_1cab49fa6ff5443a80ccf259afeeea17~mv2_d_6240_4160_s_4_2.jpg"
+  },
+  "batukaru-veranda": {
+    "src": "/images/gallery/batukaru-veranda.jpg",
+    "width": 3200,
+    "height": 2133,
+    "blurDataURL": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAABwAgCdASoQAAsAA4BaJZgCdAYvr2aLHbumhLAAAP60LWW5aZ5Cngy2Pechsx9E0hj/rE4RExfJTFl5bW6lG62BKauQu08wYPimzN5GHHz4N7A+WdJcV5gDGl+AAA==",
+    "wixId": "1ae893_a00075301c764f1789486f78b06a9bf9~mv2_d_6240_4160_s_4_2.jpg"
+  },
+  "batukaru-bedroom": {
+    "src": "/images/gallery/batukaru-bedroom.jpg",
+    "width": 2048,
+    "height": 1365,
+    "blurDataURL": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAAAwAgCdASoQAAsAA4BaJbACdAYuvdkmpT4dAAD+BdvH7VLfzDv5n2s7l1UvfK8FLhQWqeVcTb7Zu4nl0tjvcpv95o75vlgPF9FQa0zJ5tFVat4jHHS4lj7/8sEjFH/4H/fQAA==",
+    "wixId": "1ae893_6cb715c6b60a43ec91e6a95d1d4c3105~mv2_d_2048_1365_s_2.jpg"
+  },
+  "batukaru-bedroom-desk": {
+    "src": "/images/gallery/batukaru-bedroom-desk.jpg",
+    "width": 3200,
+    "height": 2133,
+    "blurDataURL": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAABwAgCdASoQAAsAA4BaJagCdAYtpnMkOHH/HfwAAP7XwRBh4sA578R6hqxtOpxKDkNaQs4Qv8Yv5Maz8bnkFLcw99eenOnCM2OFO4yR8uFh4uHA2qQZ9TpJzmEfSCuAAAA=",
+    "wixId": "1ae893_91c3852f78484eb4a400bb6d6d78b692~mv2_d_6240_4160_s_4_2.jpg"
+  },
+  "batukaru-petal-bath": {
+    "src": "/images/gallery/batukaru-petal-bath.jpg",
+    "width": 3200,
+    "height": 2134,
+    "blurDataURL": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADwAQCdASoQAAsAA4BaJaACdAEQdNG8P0QA/sRjLugun+bGVrEg1d1rYOeI8U8GxRQr4MsQPiob8aqSHSypc2GkZ6Q4NC+OWr8NFy9hhOSRQVZAAAA=",
+    "wixId": "1ae893_2a40da2896b04395b1d1fe6890d6302e~mv2_d_5771_3848_s_4_2.jpg"
+  },
+  "batukaru-ensuite-vanity": {
+    "src": "/images/gallery/batukaru-ensuite-vanity.jpg",
+    "width": 3200,
+    "height": 2134,
+    "blurDataURL": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAADwAQCdASoQAAsAA4BaJZgCdAEfB2Po6yAA+XCAPtMNdVt4IxpuvgIZqhuSwNCAo6lb0/T+kSClYUA34+kuhIrrYC2rf4RgluKh4neXCluViLHjLe3FAanpCgevn6cAAAA=",
+    "wixId": "1ae893_a625b014021749deb35af20509c2fe47~mv2_d_6154_4103_s_4_2.jpg"
+  },
+  "catur-bedroom-framed": {
+    "src": "/images/gallery/catur-bedroom-framed.jpg",
+    "width": 3200,
+    "height": 2133,
+    "blurDataURL": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAAAQAgCdASoQAAsAA4BaJbACdAEK/E4lthMQAP6Xha0PLRRvwDeZZqJ/jWvjPuuIiwsnpXOhLrz02agozLrhQffUMiburvY+ysETNgXP9i4jpXD8u01Cul5Nm5lenXnHbp5OvqAA",
+    "wixId": "1ae893_e1addf58e9a04e0e94ebe252a31b2465~mv2_d_6240_4160_s_4_2.jpg"
+  },
+  "catur-bedroom-portrait-art": {
+    "src": "/images/gallery/catur-bedroom-portrait-art.jpg",
+    "width": 3200,
+    "height": 2280,
+    "blurDataURL": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAAAQAgCdASoQAAsAA4BaJbACdADRUqOLepyEAM43iGmyTAsZR4KQhBMLV1OcEo9Qd0seN0Vm/2nCR4gVgGBmK6EjpG6b3VwX/SpkH3DVJhAYJwTyJx2y1TXWAAA=",
+    "wixId": "1ae893_406f5b8d4a4841708361f9647353f87f~mv2_d_5264_3751_s_4_2.jpg"
+  },
+  "catur-bedroom": {
+    "src": "/images/gallery/catur-bedroom.jpg",
+    "width": 3200,
+    "height": 2134,
+    "blurDataURL": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAAAQAgCdASoQAAsAA4BaJbACdAD6D+SwTzUAAP6aIzJJDwjrFZWD1myViwsKVonJWWcaeb2KCZPrKBC/3FxdP0MOlC/NeTxTr1pb4i7PgSVtoAAAAAA=",
+    "wixId": "1ae893_cae49497a2a54d738eb0c4d7a2441c10~mv2_d_6184_4123_s_4_2.jpg"
+  },
+  "catur-bedroom-wall": {
+    "src": "/images/gallery/catur-bedroom-wall.jpg",
+    "width": 3200,
+    "height": 2133,
+    "blurDataURL": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAAAwAgCdASoQAAsAA4BaJbACdAEJ3tXrHFfsAAD+6IBYZ2duA7uwq3H7zko6dzV7UI8xPRGgSYFQKnidAiX7SUXSb/k4XjskAhaowfA12reuG81/mSnQYCu+QAA=",
+    "wixId": "1ae893_e8f58b733cf141bc9d56fb8f87528188~mv2_d_6240_4160_s_4_2.jpg"
+  },
+  "catur-rain-shower": {
+    "src": "/images/gallery/catur-rain-shower.jpg",
+    "width": 3200,
+    "height": 2133,
+    "blurDataURL": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAADwAQCdASoQAAsAA4BaJbACdACnOOtOsSAA+/QbJJySokcvZQlPlUG3Wyl6S9FsnhPO3Gu7xOanS87o5y/Ensuz/35aEgz9uDO5sUSJj81vW7dQk3AAAA==",
+    "wixId": "1ae893_dcb6e0080dbc46628d4fa110993a23f2~mv2_d_6240_4160_s_4_2.jpg"
+  },
+  "batur-two-beds": {
+    "src": "/images/gallery/batur-two-beds.jpg",
+    "width": 3200,
+    "height": 2133,
+    "blurDataURL": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAABQAgCdASoQAAsAA4BaJbACdADRXKPvX+g1bAAA9pcIBXrDZdrYHlIpYdPVCvi8tYS7CLVqPI8uCD3dkwaH5y9r2j3NiZ+Q5X72Ov2l+FEQfNPRQWX5A//lwSGdmjVltZQUhggAAAA=",
+    "wixId": "1ae893_a4025be4dd734ca99688101d70b62c33~mv2_d_6240_4160_s_4_2.jpg"
+  },
+  "batur-ensuite-vanity": {
+    "src": "/images/gallery/batur-ensuite-vanity.jpg",
+    "width": 3200,
+    "height": 2133,
+    "blurDataURL": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAADwAQCdASoQAAsAA4BaJbACdAENq+SIPDAA/pTRgbvg1Y0N8Dmuhaw/9KMf2h0NzEMiSt5fzJybEcSZ6yIZjazEY+XXkd3lBLUwQ+mHPGErk2fH4/uPe1pLAAA=",
+    "wixId": "1ae893_5c1bcad2107647918c4acbfa0c2ea154~mv2_d_6240_4160_s_4_2.jpg"
+  },
+  "batur-seating-nook": {
+    "src": "/images/gallery/batur-seating-nook.jpg",
+    "width": 3200,
+    "height": 2181,
+    "blurDataURL": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAAAQAgCdASoQAAsAA4BaJZACsAEWS7KsVrAAAP6agAn/FUfTHm3i1Mp4UnPL1KsgpQ2HH/zxcvbn+492k7EeiFzDsmpAhaYuHQE2hyNrVpz5o4ly62vDHfPNISnoAAAA",
+    "wixId": "1ae893_a1d37fac8e244399a7e2bcb31ae430d9~mv2_d_6000_4089_s_4_2.jpg"
+  },
+  "batur-three-beds": {
+    "src": "/images/gallery/batur-three-beds.jpg",
+    "width": 3200,
+    "height": 2133,
+    "blurDataURL": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAAAwAgCdASoQAAsAA4BaJZgCdADp8W1hGMJ2wADiXTm4Il3vpp+fGGfOY7Ge8j+0UMHr7v36q8xoL0Yoq4rG1L8bfbcgLr6A7OPxx6FsuomZK+6eeU+ZuO1n5u4AAA==",
+    "wixId": "1ae893_c981078f29fe484d9bceec72b0e874f5~mv2_d_6240_4160_s_4_2.jpg"
+  },
+  "batur-twin-beds": {
+    "src": "/images/gallery/batur-twin-beds.jpg",
+    "width": 3200,
+    "height": 2133,
+    "blurDataURL": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAADwAQCdASoQAAsAA4BaJYgCdAEN8PtB8AAA/pb43KuyCFvofEMOkkFvkLfoZDRZ8q2LazndQDzoACmadFyGmMcHlyvIpsSQCuz8qNwZZqhlTIAA",
+    "wixId": "1ae893_f99496fbc3bd43e99e973f7264382b18~mv2_d_6240_4160_s_4_2.jpg"
+  },
+  "batur-window-bed": {
+    "src": "/images/gallery/batur-window-bed.jpg",
+    "width": 3200,
+    "height": 2133,
+    "blurDataURL": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAAAQAgCdASoQAAsAA4BaJbACdADwSZ5jsW4AAPk5X2hMqYtV+h4B2LfwWau2ZWIUTBMjPBEg9Wow8LrWgEeYvw8WLwrPdZLvEWyTizPWkGjBIQAA",
+    "wixId": "1ae893_ad17aa64bc9444beb2a0a17683d1a1ec~mv2_d_6240_4160_s_4_2.jpg"
+  },
+  "abang-garden-terrace": {
+    "src": "/images/gallery/abang-garden-terrace.jpg",
+    "width": 3200,
+    "height": 2133,
+    "blurDataURL": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAACQAgCdASoQAAsAA4BaJZACdH8AgrTAxUrhX8GiUAD9kD4dsMPd8XerUFbF2YO3NfUhGdG8ViPNuEghSSDujCG0z90RXneMDDua7mLNvEGuRxXFUpb7BCfW0Bp21VsT9gAAAA==",
+    "wixId": "1ae893_34bfdccd44ce435d80d4235e05c60b8d~mv2_d_6240_4160_s_4_2.jpg"
+  },
+  "abang-ensuite": {
+    "src": "/images/gallery/abang-ensuite.jpg",
+    "width": 3200,
+    "height": 2133,
+    "blurDataURL": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAADwAQCdASoQAAsAA4BaJbACdACjeIyWBgAA/k4SIOTk9XrBzHKEFh5S2rH/ozLpqZeZxyoxvP3/70Q7gIFIa4h53FnOXXFn1eDZGJ5LWA1iEe2ncQ4RC/HY3z8PKTvRIAA=",
+    "wixId": "1ae893_ebbe67577a024cc68bbc7152528a7b41~mv2_d_6240_4160_s_4_2.jpg"
+  },
+  "abang-bedroom": {
+    "src": "/images/gallery/abang-bedroom.jpg",
+    "width": 3200,
+    "height": 2134,
+    "blurDataURL": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAADwAQCdASoQAAsAA4BaJbACdAEQzDKv7RAA/uEOIwbyc4BxCciJ/kHiukxfm4guMazxD4QlW+0JeAF+ssNVXbZRoXEIqPXotdPhZL4DC+732pY7OagAAA==",
+    "wixId": "1ae893_275870cbd2734010963a0c05e27ed519~mv2_d_6151_4101_s_4_2.jpg"
+  },
+  "abang-stone-shower": {
+    "src": "/images/gallery/abang-stone-shower.jpg",
+    "width": 3200,
+    "height": 2133,
+    "blurDataURL": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAAAwAgCdASoQAAsAA4BaJbACdAEDUzPqts8BUAD9TYLA09CssejM8OnWgFTzFRJV6+1XeBG16qK5dZcrwcfW8ZZwCjiv5o2JM4i5e3l5hcm2sFZO4GbsKhHL/2euQAAA",
+    "wixId": "1ae893_44e22d5cd68a43f8b7f3f253e89db836~mv2_d_6240_4160_s_4_2.jpg"
+  },
+  "abang-pool-wall-garden": {
+    "src": "/images/gallery/abang-pool-wall-garden.jpg",
+    "width": 3200,
+    "height": 2134,
+    "blurDataURL": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAABQAgCdASoQAAsAA4BaJbACsAYvXjIYwsLBJ4AA9HQuKQrSyk9qJQJxDNIu+22wNNb1NcB0yx3V95nG//YP0qEnmveGhn4M47vScgsrwvxS2OHGmdu1SJfwEh+EspzAAAA=",
+    "wixId": "1ae893_121c065b5bcc43c09615cb2aa8558017~mv2_d_6166_4111_s_4_2.jpg"
+  },
+  "abang-garden-staircase": {
+    "src": "/images/gallery/abang-garden-staircase.jpg",
+    "width": 3200,
+    "height": 2133,
+    "blurDataURL": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAABQAgCdASoQAAsAA4BaJbACdAYt9q33DMkllIAA/qN50z+hKq9nY3a2oTcz1KFI3/32dvrM1INO3kCpc07E7qnCWf12uneX0gTdHVaOwXyYdF5XJYvD8kYNlesjeRCdahBk/PCUAAA=",
+    "wixId": "1ae893_e6f625aeffa144ed82b7c4923b17719d~mv2_d_6240_4160_s_4_2.jpg"
+  },
+  "living-dining-kitchen": {
+    "src": "/images/gallery/living-dining-kitchen.jpg",
+    "width": 3200,
+    "height": 2079,
+    "blurDataURL": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAAAwAgCdASoQAAoAA4BaJbACdAD0WcPc0Iw+AADiH5A9Fytg3eJAJFaQ2tQWDZf0KYqkejCQTXeG5o8v7fU2yMlPAV+zi+owkJYfvRprvSVcHizUwpsPjS0BgQAAAA==",
+    "wixId": "1ae893_00898232126b413586779ac28c510381~mv2_d_4949_3215_s_4_2.jpg"
+  },
+  "living-dining-wide": {
+    "src": "/images/gallery/living-dining-wide.jpg",
+    "width": 3200,
+    "height": 2133,
+    "blurDataURL": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAAAQAgCdASoQAAsAA4BaJbACdAEN5bh86uFAAP7rdR90GoIb6d7XYyVBNMUNiWX4SDHqjvv3z66RGxBoYqzqglEd7flAQknkMVstM386LdmTfYWjnQjvScIAAAA=",
+    "wixId": "1ae893_267fa72e6bab4f25ba24d3ec95d69248~mv2_d_6150_4100_s_4_2.jpg"
+  },
+  "living-lounge-mural": {
+    "src": "/images/gallery/living-lounge-mural.jpg",
+    "width": 3200,
+    "height": 2355,
+    "blurDataURL": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAAAwAgCdASoQAAwAA4BaJbACdAEPCFqskTnQAAD+xFGDHCRLFHH9pH3wcaDNuiAPfxizM4UKyIlNlWZmTCNBu5J+RS+HeCRuvp1r5VsL4AA=",
+    "wixId": "1ae893_6b85387f77734b5a8dc9615b67feb896~mv2_d_5129_3774_s_4_2.jpg"
+  },
+  "living-retreat-group-sofa": {
+    "src": "/images/gallery/living-retreat-group-sofa.jpg",
+    "width": 1199,
+    "height": 867,
+    "blurDataURL": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAADQAQCdASoQAAwAA4BaJYwCdAEfnbBwAAD2laoXmlmf/a/9auDRt0Haom0L0gURhaAVDsPIo8oYGfabLuQeGllohLuafzKNJ9i1TemmBX8MgAAA",
+    "wixId": "1ae893_0f0b8b7582d840a5b23d9d51a29bac91~mv2.jpeg"
+  },
+  "living-infinity-pool": {
+    "src": "/images/gallery/living-infinity-pool.jpg",
+    "width": 3200,
+    "height": 1834,
+    "blurDataURL": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAAAQAgCdASoQAAkAA4BaJYwCdAD2OL9nxH7wAOJ94VZdBwbRU/auahy9dESiGZg4pInX++gbudC5WVLJDj/HkaO1+Fv+TiSDuSqdvoJgbO/sXVAA",
+    "wixId": "1ae893_99e7ff2688164064ab1b6cdddad127e6~mv2_d_5598_3208_s_4_2.jpg"
+  },
+  "living-pool-pavilion": {
+    "src": "/images/gallery/living-pool-pavilion.jpg",
+    "width": 3200,
+    "height": 2076,
+    "blurDataURL": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAAAQAgCdASoQAAoAA4BaJZgCdAEXeaXRctYAAP55D9ev+d6FkEtye+TvUbXak39OcOE4HDNnbTSkzxv+QR2KJMS+ehtTJrlctKpp3jbJpAXK/JYIZkQH8GcC/Bmrd6eDiXIAAA==",
+    "wixId": "1ae893_0cbc1ba116fc478aa12cc7337f1142b1~mv2_d_6028_3911_s_4_2.jpg"
+  },
+  "living-infinity-pool-edge": {
+    "src": "/images/gallery/living-infinity-pool-edge.jpg",
+    "width": 3200,
+    "height": 1891,
+    "blurDataURL": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAADQAQCdASoQAAkAA4BaJZgC7ACqifLiAAD+WJWku6S268bkCatuazkbfMHpwv0bt+/rh/XBVz+Nx+iC8QBB3Yd3DLvAQDD1n2h2lD44zhfEgAAA",
+    "wixId": "1ae893_0ed3ce5c880240688b73553cfd27a533~mv2_d_3376_1995_s_2.jpg"
+  },
+  "living-poolside-yoga": {
+    "src": "/images/gallery/living-poolside-yoga.jpg",
+    "width": 3200,
+    "height": 1936,
+    "blurDataURL": "data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAABQAgCdASoQAAoAA4BaJZACdAYuldBJ/ak/k/gA/krog5d9QegjPMaod5jLIOMARLWVN91ZlZbBKSiL0/ntExAvBCC/lcYdbkx+lfZev8xhHEi9f3Qwy1ALFEyqs6III/qgvqGXig3PQGUCwAA=",
+    "wixId": "1ae893_e168f7de1405424aa97512db36156849~mv2_d_3895_2357_s_2.jpg"
+  },
+  "snaps-villa-render": {
+    "src": "/images/gallery/snaps-villa-render.jpg",
+    "width": 2500,
+    "height": 1875,
+    "blurDataURL": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAADQAQCdASoQAAwAA4BaJQAAXDfXxvUggAD+mptPS/FLtQ5OWVrn/xJuaGECOdvtkdVFhzTT4WvyVCS0zxLHibcJ9I4xU1BzqQdRem99wWV+q9taiwk8c7v4AAJIAA==",
+    "wixId": "1ae893_f2ea6f6b27c84935abc5fc4340027494~mv2_d_2500_1875_s_2.jpg"
+  },
+  "snaps-staircase-hall": {
+    "src": "/images/gallery/snaps-staircase-hall.jpg",
+    "width": 3200,
+    "height": 2849,
+    "blurDataURL": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAADwAQCdASoQAA4AA4BaJaACdADOniGi1RQA9kQ1U4rRiAzo+NnqzsBWvzcjeUGb75387KJaIXS5JvWmRVqXwEYTS87j778GasrggeNHbnFqYIVaQTdjxUDKLhq9lyyS8vIAAA==",
+    "wixId": "1ae893_339f82045a794334a2e2db37146c61c7~mv2_d_4816_4288_s_4_2.jpg"
+  },
+  "snaps-aerial-view": {
+    "src": "/images/gallery/snaps-aerial-view.jpg",
+    "width": 1881,
+    "height": 1078,
+    "blurDataURL": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADQAQCdASoQAAkAA4BaJYgCdADDafqIAAD9eAt2wgpzI9qmuuDKOv82bv4W8b+cweZAndYMu7g7haAv02NaPwkiEy7eBP2AAAA=",
+    "wixId": "1ae893_2915eece74e546ea911cfb8e08e59fa4~mv2.jpg"
+  },
+  "snaps-carved-entry-door": {
+    "src": "/images/gallery/snaps-carved-entry-door.jpg",
+    "width": 3200,
+    "height": 2134,
+    "blurDataURL": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAADwAQCdASoQAAsAA4BaJQBOgB36oXimegAA/ghxGQFm1inCOOwJe1VLxiURwSQoe+37jbH2fsZB26XencgFDQWRLDh3teTbEV1Vb4cn07DLad8O7x8jeZpob8gAAA==",
+    "wixId": "1ae893_bccd20606f714f468aac99d032bdba3f~mv2_d_6145_4097_s_4_2.jpg"
+  },
+  "snaps-staff-jumping": {
+    "src": "/images/gallery/snaps-staff-jumping.jpg",
+    "width": 3200,
+    "height": 1794,
+    "blurDataURL": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADQAQCdASoQAAkAA4BaJQBOgBxonFuZgAD+5fK8P+jXojDCz/pbdsZNwNP6KOWs5Nk3Q+kOr3z4v4JRnL4yL9bMOvmjT7WXslmhntzOAAA=",
+    "wixId": "1ae893_f8814167e81e49c09d6539e4e4619834~mv2_d_3568_2000_s_2.jpg"
+  },
+  "snaps-towel-art-bed": {
+    "src": "/images/gallery/snaps-towel-art-bed.jpg",
+    "width": 3200,
+    "height": 2133,
+    "blurDataURL": "data:image/webp;base64,UklGRnoAAABXRUJQVlA4IG4AAABQAgCdASoQAAsAA4BaJbACdH8AgvCFNW7BSFAA/sjMW6oMyit6manqrPTNUFz+qrsNkXvSH/rACy9zFEDIAcm6r7jNnRgrJ+V+2QQsW5nFq4C48chaRFZh25VDUzK889lOJz0eDaWgNrh7UPQAAA==",
+    "wixId": "1ae893_689c62ab40984b82a1ca4a908cab5a0b~mv2_d_6240_4160_s_4_2.jpg"
+  },
+  "snaps-entrance-courtyard": {
+    "src": "/images/gallery/snaps-entrance-courtyard.jpg",
+    "width": 3200,
+    "height": 2133,
+    "blurDataURL": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAABwAgCdASoQAAsAA4BaJYgCdAYwTuV+azLEWSuAAP0CkkZJQyKArtsOceDbVxPb6cia2IA2QVOXB/JRHrCo7fSrIBbSnVPYjf8WaZ3taZoFaOAr1owzmxQwUQHCfpvlFMkuYCxAsAA=",
+    "wixId": "1ae893_c19118c1b9524a50a335532fab4fd7bf~mv2_d_6240_4160_s_4_2.jpg"
+  },
+  "snaps-towel-swans": {
+    "src": "/images/gallery/snaps-towel-swans.jpg",
+    "width": 3200,
+    "height": 2133,
+    "blurDataURL": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAAAQAgCdASoQAAsAA4BaJQBOgCLZcBiHRk9wAMyMyVG/tPgNJKAbJU4EatDOGHAuK/cOhs2r8lU6D0q9jiH5q0NiRLFEZLyeyC9O/iugLLHYXGZ7F7lPrsAA",
+    "wixId": "1ae893_6e5dabf697f147a185298c2131f49996~mv2_d_5184_3456_s_4_2.jpg"
+  },
+  "snaps-flower-mandala": {
+    "src": "/images/gallery/snaps-flower-mandala.jpg",
+    "width": 1431,
+    "height": 868,
+    "blurDataURL": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAADwAQCdASoQAAoAA4BaJbACdAEOlz/3gwAA/bV55Dils9ORV4GSNowQcg3eHimEcRknv+FD4atH2rTkib3N17Q9R0u/XveCZsb81m4wdG8tj3XqZdLnvbpTyLhtgloAAAA=",
+    "wixId": "1ae893_e28fa0680f684978bb7343dbc0403b54~mv2.jpg"
+  },
+  "snaps-kitten-statue": {
+    "src": "/images/gallery/snaps-kitten-statue.jpg",
+    "width": 3200,
+    "height": 2133,
+    "blurDataURL": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAADwAQCdASoQAAsAA4BaJZACdACjr0q+qyAA/IXF95RPamHtXo1ues11zoK9MXhcL/sw0sBBpNtgJN1z1/iWR6dcsTvDwdyJIcPhTg7RhrVKiir/l4RAAA==",
+    "wixId": "1ae893_180a6e47a0fa4307a90c4e58fbbfe33b~mv2_d_6240_4160_s_4_2.jpg"
+  },
+  "snaps-offerings-on-steps": {
+    "src": "/images/gallery/snaps-offerings-on-steps.jpg",
+    "width": 3200,
+    "height": 1999,
+    "blurDataURL": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAAAQAgCdASoQAAoAA4BaJbACdH8AE15qCkiAAP7tqdJU0dl8lRj7Q9a0AUFcU7N5RmlNsLL+CTmE5rfUmezPsSnC7PgDdQLP3DQ/XmM0CCAc4Tl9hdsonbmmukwVBJmsgqEJzgAA",
+    "wixId": "1ae893_ca99018f40444c91ae92c9521fc8580b~mv2_d_4187_2615_s_4_2.jpg"
+  }
+}
