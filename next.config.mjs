@@ -24,6 +24,9 @@ const nextConfig = {
   poweredByHeader: false,
   reactStrictMode: true,
   images: {
+    // Image Optimization is switched off (Vercel Hobby image-transformation quota): next/image serves
+    // the original files as-is. The settings below stay in place for if it is switched back on.
+    unoptimized: true,
     // WebP only: AVIF encoding is several times slower on first request (re-enable for Vercel if wanted).
     formats: ['image/webp'],
     // Every image is delivered at q85+ (q90 for heroes and the lightbox); 75 isn't allowed, so the default maps to 85.
